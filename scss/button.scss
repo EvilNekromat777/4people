@@ -23,3 +23,16 @@
 		background-color: #ffffff;
 	}
 }
+//===========================================================>
+@media (max-width: 992px) {
+	.button {
+		width: 133px;
+		height: 30px;
+	}
+}
+@media (max-width: 868px) {
+	.button {
+		width: 100px;
+		height: 25px;
+	}
+}

@@ -32,3 +32,29 @@
 		color: #43abf0;
 	}
 }
+//=============================================================>
+@media (max-width: 1668px) {
+	.header {
+		height: 90px;
+	}
+}
+@media (max-width: 1376px) {
+	.header {
+		height: 80px;
+	}
+}
+@media (max-width: 1150px) {
+	.header {
+		height: 70px;
+	}
+}
+@media (max-width: 992px) {
+	.header {
+		height: 60px;
+	}
+}
+@media (max-width: 768px) {
+	.header {
+		height: 50px;
+	}
+}
