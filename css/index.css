@@ -37,6 +37,7 @@
 .about {
   background: url("../images/about/01.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .about__body {
   position: relative;
@@ -73,6 +74,30 @@
   font-family: "Lato - Regular";
   font-weight: 400;
 }
+.button {
+  width: 183px;
+  height: 42px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  background-color: #3e9cdc;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.button__order {
+  color: #ffffff;
+  margin: 0px 27px 0px 0px;
+}
+.button__detailed {
+  border: 1px solid #6f6d7b;
+  background-color: #ffffff;
+}
+
 * {
   padding: 0px;
   margin: 0px;
