@@ -1,0 +1,47 @@
+.about {
+	background: url("../images/about/01.jpg") no-repeat;
+	background-size: cover;
+
+	&__body {
+		position: relative;
+		min-height: 100vh;
+		padding: 245px 0px 0px 0px;
+	}
+
+	&__title {
+		color: #272733;
+		font-family: Lato;
+		font-size: 48px;
+		font-weight: 700;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 64px;
+		text-transform: uppercase;
+		max-width: 733px;
+	}
+	&__title_color_blue {
+		color: #3e9cdc;
+	}
+
+	&__info {
+		margin: 74px 0px 77px 0px;
+		color: #2a2b30;
+		font-size: 20px;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 34px;
+	}
+
+	&__subtitle {
+		font-family: "Lato - Bold";
+		font-weight: 700;
+	}
+
+	&__li {
+		font-family: "Lato - Regular";
+		font-weight: 400;
+	}
+
+	&__buttons {
+	}
+}

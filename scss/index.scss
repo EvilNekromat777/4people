@@ -6,6 +6,7 @@ $fontfamili: "Lato";
 
 // Подключаем файлы со стилями страниц и элементов
 @import "header.scss";
+@import "about.scss";
 @import "footer.scss";
 
 // Обнуление: общие параметры
@@ -55,3 +56,4 @@ $fontfamili: "Lato";
 	opacity: 0;
 	visibility: hidden;
 }
+//=========================================================================================>

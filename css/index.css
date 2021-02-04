@@ -7,19 +7,17 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 50;
 }
-
 .header__body {
   display: flex;
   justify-content: space-between;
   padding: 41px 0px 0px 0px;
 }
-
 .header__links {
   display: flex;
   padding: 6px 0px 0px 0px;
 }
-
 .header__link {
   color: #ffffff;
   font-family: "Lato - Semibold";
@@ -32,11 +30,49 @@
   text-transform: uppercase;
   margin: 0px 0px 0px 52px;
 }
-
-.header__link_biznes {
+.header__link_biz {
   color: #43abf0;
 }
 
+.about {
+  background: url("../images/about/01.jpg") no-repeat;
+  background-size: cover;
+}
+.about__body {
+  position: relative;
+  min-height: 100vh;
+  padding: 245px 0px 0px 0px;
+}
+.about__title {
+  color: #272733;
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 64px;
+  text-transform: uppercase;
+  max-width: 733px;
+}
+.about__title_color_blue {
+  color: #3e9cdc;
+}
+.about__info {
+  margin: 74px 0px 77px 0px;
+  color: #2a2b30;
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 34px;
+}
+.about__subtitle {
+  font-family: "Lato - Bold";
+  font-weight: 700;
+}
+.about__li {
+  font-family: "Lato - Regular";
+  font-weight: 400;
+}
 * {
   padding: 0px;
   margin: 0px;
