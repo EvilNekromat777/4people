@@ -1,13 +1,17 @@
 .about {
-	background: url("../images/about/01.jpg") no-repeat;
-	background-size: cover;
-	background-position: center;
+	position: relative;
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-size: cover;
+		width: 100%;
+	}
 
 	&__body {
 		position: relative;
+		z-index: 2;
 		min-height: 100vh;
-		//max-height: 849px;
-		//height: 849px;
 		padding: 245px 0px 0px 0px;
 	}
 

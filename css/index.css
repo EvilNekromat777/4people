@@ -35,12 +35,18 @@
 }
 
 .about {
-  background: url("../images/about/01.jpg") no-repeat;
+  position: relative;
+}
+.about img {
+  position: absolute;
+  top: 0;
+  left: 0;
   background-size: cover;
-  background-position: center;
+  width: 100%;
 }
 .about__body {
   position: relative;
+  z-index: 2;
   min-height: 100vh;
   padding: 245px 0px 0px 0px;
 }
