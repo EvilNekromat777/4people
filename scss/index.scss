@@ -8,6 +8,7 @@ $fontfamili: "Lato";
 @import "header.scss";
 @import "about.scss";
 @import "button.scss";
+@import "order.scss";
 @import "footer.scss";
 
 // Обнуление: общие параметры
@@ -58,3 +59,6 @@ $fontfamili: "Lato";
 	visibility: hidden;
 }
 //=========================================================================================>
+.color-blue {
+	color: #3e9cdc;
+}
