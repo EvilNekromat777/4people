@@ -201,7 +201,7 @@
   height: 880px;
   padding: 123px 0px 0px 0px;
 }
-.order img {
+.order__map {
   position: absolute;
   top: 0;
   left: 0;
@@ -229,6 +229,42 @@
   letter-spacing: normal;
   line-height: 22px;
   text-align: center;
+}
+
+.diagram {
+  border: 2px solid red;
+}
+.diagram__item {
+  border: 2px solid green;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+.diagram__ellips {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../images/order/ellips.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.diagram__img {
+  width: 100px;
+  height: 100px;
+}
+.diagram__text {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
 }
 
 * {
