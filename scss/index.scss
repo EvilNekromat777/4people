@@ -6,6 +6,8 @@ $fontfamili: "Lato";
 
 // Подключаем файлы со стилями страниц и элементов
 @import "header.scss";
+@import "about.scss";
+@import "button.scss";
 @import "footer.scss";
 
 // Обнуление: общие параметры
@@ -36,6 +38,7 @@ $fontfamili: "Lato";
 .container {
 	max-width: 1169px;
 	margin: 0 auto;
+	padding: 0px 15px;
 }
 
 .ibg {
@@ -54,3 +57,4 @@ $fontfamili: "Lato";
 	opacity: 0;
 	visibility: hidden;
 }
+//=========================================================================================>

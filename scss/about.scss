@@ -1,0 +1,141 @@
+.about {
+	position: relative;
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-size: cover;
+		width: 100%;
+	}
+
+	&__body {
+		position: relative;
+		z-index: 2;
+		min-height: 100vh;
+		padding: 245px 0px 0px 0px;
+	}
+
+	&__title {
+		color: #272733;
+		font-family: Lato;
+		font-size: 48px;
+		font-weight: 700;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 64px;
+		text-transform: uppercase;
+		max-width: 733px;
+	}
+	&__title_color_blue {
+		color: #3e9cdc;
+	}
+
+	&__info {
+		margin: 74px 0px 77px 0px;
+		color: #2a2b30;
+		font-size: 20px;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 34px;
+	}
+
+	&__subtitle {
+		font-family: "Lato - Bold";
+		font-weight: 700;
+	}
+
+	&__li {
+		font-family: "Lato - Regular";
+		font-weight: 400;
+	}
+
+	&__buttons {
+	}
+}
+//============================================================================>
+@media (max-width: 1668px) {
+	.about {
+		&__body {
+			padding: 160px 0px 0px 0px;
+		}
+
+		&__title {
+			font-size: 40px;
+		}
+
+		&__info {
+			margin: 54px 0px 57px 0px;
+		}
+	}
+}
+@media (max-width: 1376px) {
+	.about {
+		padding: 0px 35px 0px 35px;
+		&__body {
+			padding: 130px 0px 0px 0px;
+		}
+
+		&__title {
+			font-size: 28px;
+			line-height: 44px;
+		}
+
+		&__info {
+			margin: 40px 0px 43px 0px;
+		}
+	}
+}
+@media (max-width: 1150px) {
+	.about {
+		&__body {
+			padding: 110px 0px 0px 0px;
+			max-width: 533px;
+		}
+
+		&__title {
+			font-size: 24px;
+			line-height: 34px;
+			//max-width: 533px;
+		}
+
+		&__info {
+			margin: 30px 0px 33px 0px;
+		}
+	}
+}
+@media (max-width: 992px) {
+	.about {
+		&__body {
+			padding: 90px 0px 0px 0px;
+		}
+
+		&__title {
+			font-size: 20px;
+			line-height: 30px;
+			//max-width: 533px;
+		}
+		//&__subtitle{
+		//	max-width: 533px;
+		//}
+
+		&__info {
+			margin: 25px 0px 28px 0px;
+		}
+	}
+}
+@media (max-width: 868px) {
+	.about {
+		&__body {
+			padding: 80px 0px 0px 0px;
+		}
+
+		&__title {
+			font-size: 15px;
+			line-height: 25px;
+		}
+
+		&__info {
+			//margin: 25px 0px 23px 0px;
+		}
+	}
+}
