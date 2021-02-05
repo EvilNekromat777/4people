@@ -12,3 +12,24 @@ $(document).ready(function () {
 });
 
 //=======================================================================================>
+
+//$(function () {
+//	$(".slider").slider();
+//});
+
+//$(".slider").slider({
+//	animate: "slow",
+//	range: "min",
+//	value: 50
+//});
+
+
+$(".slider").slider({
+	animate: "slow",
+	range: "min",
+	value: 75,
+	slide: function (event, ui) {
+		$(".polzunok__result").text(ui.value);
+	}
+});
+$(".polzunok__result").text($(".slider").slider("value")); 
