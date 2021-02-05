@@ -37,6 +37,16 @@
 }
 .footer__pay {
 	margin: 0px 46px 0px 0px;
+	padding: 0px 0px 0px 25px;
+	&_qiwi {
+		background: url("../images/footer/01.png") no-repeat;
+	}
+	&_yandex {
+		background: url("../images/footer/02.png") no-repeat;
+	}
+	&_web {
+		background: url("../images/footer/03.png") no-repeat;
+	}
 }
 .footer__social {
 	display: flex;
@@ -48,9 +58,14 @@
 	font-weight: 400;
 	font-style: normal;
 	letter-spacing: normal;
-	line-height: 18px;
+	line-height: 15px;
 	text-align: left;
-}
-.footer__social-item_email {
-	margin: 0px 40px 0px 0px;
+	padding: 0px 0px 0px 23px;
+	&_email {
+		margin: 0px 40px 0px 0px;
+		background: url("../images/footer/social/01.png") no-repeat;
+	}
+	&_vk {
+		background: url("../images/footer/social/02.png") no-repeat;
+	}
 }
