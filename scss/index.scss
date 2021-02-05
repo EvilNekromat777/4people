@@ -8,6 +8,8 @@ $fontfamili: "Lato";
 @import "header.scss";
 @import "about.scss";
 @import "button.scss";
+@import "order.scss";
+@import "diagram.scss";
 @import "footer.scss";
 
 // Обнуление: общие параметры
@@ -39,6 +41,7 @@ $fontfamili: "Lato";
 	max-width: 1169px;
 	margin: 0 auto;
 	padding: 0px 15px;
+	border: 2px solid red;
 }
 
 .ibg {
@@ -58,3 +61,6 @@ $fontfamili: "Lato";
 	visibility: hidden;
 }
 //=========================================================================================>
+.color-blue {
+	color: #3e9cdc;
+}
