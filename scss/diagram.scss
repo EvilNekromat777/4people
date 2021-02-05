@@ -1,14 +1,14 @@
 .diagram {
-	border: 2px solid red;
 	padding: 79px 0px 0px 0px;
 	display: flex;
 	justify-content: space-between;
+	position: relative;
+	overflow: hidden;
 
 	&__item {
-		border: 2px solid green;
 		display: inline-block;
-		position: relative;
 		text-align: center;
+		border: 2px solid green;
 	}
 
 	&__ellips {
@@ -44,12 +44,36 @@
 		margin: 0;
 	}
 	&__text_1 {
-		max-width: 135px;
+		width: 135px;
+	}
+	&__text_2 {
+		width: 182px;
+	}
+	&__text_3 {
+		width: 167px;
 	}
 	&__text_4 {
-		max-width: 130px;
+		width: 130px;
 	}
 	&__text_5 {
-		max-width: 170px;
+		width: 180px;
 	}
+}
+.diagram__points {
+	display: flex;
+	padding: 50px 0px 0px 0px;
+	z-index: 5;
+}
+.diagram__point {
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background-color: #bbbbbb;
+	margin: 0 9px;
+	//&:first-child {
+	//	margin-left: 0;
+	//}
+	//&:last-child {
+	//	margin-right: 0;
+	//}
 }
