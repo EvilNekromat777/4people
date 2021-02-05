@@ -316,10 +316,36 @@
   box-sizing: border-box;
   background-color: #ffffff;
   padding: 0px 0px 0px 16px;
-  margin: 0px 26px 0px 0px;
+  margin: 0px 28px 0px 0px;
 }
 .input:last-child {
   margin: 0;
+}
+
+.input_polzunok {
+  margin: 0;
+}
+
+.forms__data {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0px 0px 0px;
+}
+
+.polzunok__input {
+  position: relative;
+}
+
+.polzunok__input-img {
+  width: 33px;
+  height: 20px;
+  position: absolute;
+  top: 12px;
+  left: 78px;
+}
+
+.polzunok__input-body {
+  padding: 0px 0px 0px 124px;
 }
 
 ::-webkit-input-placeholder {
@@ -366,6 +392,7 @@
 
 .polzunok {
   max-width: 770px;
+  width: 100%;
 }
 
 .polzunok__info {
@@ -376,7 +403,7 @@
   font-style: normal;
   letter-spacing: normal;
   line-height: 22px;
-  margin: 32px 0px 26px 0px;
+  margin: 0px 0px 18px 0px;
   display: flex;
   justify-content: space-between;
 }
@@ -875,7 +902,6 @@ h6 {
   max-width: 1202px;
   margin: 0 auto;
   padding: 0px 15px;
-  border: 2px solid red;
 }
 
 .ibg {

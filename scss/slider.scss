@@ -8,6 +8,8 @@
 
 .polzunok {
 	max-width: 770px;
+	width: 100%;
+	//border: 2px solid green;
 }
 .polzunok__info {
 	color: #ffffff;
@@ -17,7 +19,7 @@
 	font-style: normal;
 	letter-spacing: normal;
 	line-height: 22px;
-	margin: 32px 0px 26px 0px;
+	margin: 0px 0px 18px 0px;
 	display: flex;
 	justify-content: space-between;
 }
