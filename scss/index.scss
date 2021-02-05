@@ -10,6 +10,7 @@ $fontfamili: "Lato";
 @import "button.scss";
 @import "order.scss";
 @import "diagram.scss";
+@import "forms.scss";
 @import "footer.scss";
 
 // Обнуление: общие параметры
@@ -38,7 +39,7 @@ $fontfamili: "Lato";
 
 // Основная сетка
 .container {
-	max-width: 1169px;
+	max-width: 1202px;
 	margin: 0 auto;
 	padding: 0px 15px;
 	border: 2px solid red;

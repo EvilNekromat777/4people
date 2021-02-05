@@ -1,0 +1,60 @@
+.forms {
+	//border: 2px solid red;
+	padding: 81px 0px 0px 0px;
+	position: relative;
+	z-index: 1;
+}
+.input {
+	width: 370px;
+	height: 48px;
+	border-radius: 3px;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	padding: 0px 0px 0px 16px;
+	margin: 0px 26px 0px 0px;
+	&:last-child {
+		margin: 0;
+	}
+}
+
+//=======================================================================================================>
+
+::-webkit-input-placeholder {
+	color: #272733;
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 22px;
+}
+::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #272733;
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 22px;
+}
+:-moz-placeholder {
+	/* Firefox 18- */
+	color: #272733;
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 22px;
+}
+:-ms-input-placeholder {
+	color: #272733;
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 22px;
+}
