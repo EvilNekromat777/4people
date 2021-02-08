@@ -207,7 +207,7 @@
 .order {
   position: relative;
   background-color: #272733;
-  padding: 125px 0px 147px 0px;
+  padding: 118px 0px 147px 0px;
 }
 .order__map {
   position: absolute;
@@ -277,7 +277,7 @@
   letter-spacing: normal;
   line-height: 20px;
   text-align: center;
-  padding: 18px 0px 0px 0px;
+  padding: 15px 0px 0px 0px;
   margin: 0;
 }
 .diagram__text_1 {
