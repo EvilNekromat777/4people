@@ -16,7 +16,7 @@
 }
 .header__links {
   display: flex;
-  padding: 6px 0px 0px 0px;
+  padding: 4px 0px 0px 0px;
 }
 .header__link {
   color: #ffffff;
@@ -28,7 +28,7 @@
   line-height: 18px;
   text-align: right;
   text-transform: uppercase;
-  margin: 0px 0px 0px 52px;
+  margin: 0px 0px 0px 66px;
 }
 
 @media (max-width: 1668px) {
