@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 .header {
   width: 100%;
   height: 100px;
@@ -328,6 +328,16 @@
 }
 .input:last-child {
   margin: 0;
+}
+
+.input__select {
+  color: #272733;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 22px;
 }
 
 .input_polzunok {
@@ -844,6 +854,17 @@ a.ui-button:active,
 
 .ui-widget-shadow {
   box-shadow: 0px 0px 5px #666666;
+}
+
+.input__select-value {
+  color: red;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 34px;
+  text-align: left;
 }
 
 .footer {
