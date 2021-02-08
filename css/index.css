@@ -70,7 +70,7 @@
 .about__body {
   position: relative;
   z-index: 2;
-  padding: 245px 0px 191px 0px;
+  padding: 230px 0px 191px 0px;
 }
 .about__title {
   color: #272733;
@@ -84,7 +84,7 @@
   max-width: 733px;
 }
 .about__info {
-  margin: 74px 0px 77px 0px;
+  margin: 55px 0px 72px 0px;
   color: #2a2b30;
   font-size: 20px;
   font-style: normal;
