@@ -127,8 +127,20 @@
 					<div class="forms">
 						<form class="form">
 							<fieldset class="form__fieldset">
-								<input type="text" name="select" id="inputSelect" class="input input__select"
-									placeholder="Выберите тип системы" required>
+								<select class="input input__select" id="select" name="select" required>
+									<option value="none" hidden="" class="input__select-value">Выберите тип системы</option>
+									<option value="1" class="input__select-value">Sed ut perspiciatis</option>
+									<option value="2" class="input__select-value">Nemo enim ipsam</option>
+									<option value="3" class="input__select-value">Et harum quidem</option>
+									<option value="4" class="input__select-value">Temporibus autem</option>
+									<option value="5" class="input__select-value">Itaque earum rerum</option>
+								</select>
+
+
+
+
+
+
 								<input type="email" name="email" id="inputEmail" class="input input__email"
 									placeholder="Ваш e-mail" required>
 								<input type="text" name="name" id="inputName" class="input input__name" placeholder="Ваше имя"

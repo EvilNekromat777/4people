@@ -1,5 +1,3 @@
-
-
 //Скрыть placeholder при клике
 $(document).ready(function () {
 	$('input').focus(function () {
@@ -12,18 +10,7 @@ $(document).ready(function () {
 });
 
 //=======================================================================================>
-
-//$(function () {
-//	$(".slider").slider();
-//});
-
-//$(".slider").slider({
-//	animate: "slow",
-//	range: "min",
-//	value: 50
-//});
-
-
+//Ползунок - слайдер
 $(".slider").slider({
 	animate: "slow",
 	range: "min",
@@ -32,4 +19,10 @@ $(".slider").slider({
 		$(".polzunok__result").text(ui.value);
 	}
 });
-$(".polzunok__result").text($(".slider").slider("value")); 
+$(".polzunok__result").text($(".slider").slider("value"));
+
+//=======================================================================================>
+
+$("#select :selected").val();
+$("#select :selected").text();
+
