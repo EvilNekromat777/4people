@@ -23,12 +23,6 @@ $(".polzunok__result").text($(".slider").slider("value"));
 
 //=======================================================================================>
 
-//$("#select :selected").val();
-//$("#select :selected").text();
-
-
-
-
 $("#select :selected").val();
 $("#select :selected").text();
 
@@ -73,4 +67,14 @@ document.getElementById("selectoro").addEventListener("click", function () {
 	} else {
 		element.classList.remove("chun");
 	}
+});
+
+
+//=======================================================================================>
+
+$(document).ready(function () {
+	$('.header__burger').click(function (event) {
+		$('.header__burger,.header__navigation').toggleClass('active');
+		$('body').toggleClass('lock');
+	});
 });
