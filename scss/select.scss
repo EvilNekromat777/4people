@@ -1,10 +1,144 @@
-.input__select-value {
-	color: red;
+//.input__select-value {
+//	color: red;
+//	font-family: Lato;
+//	font-size: 18px;
+//	font-weight: 400;
+//	font-style: normal;
+//	letter-spacing: normal;
+//	line-height: 34px;
+//	text-align: left;
+//}
+.select::after {
+	content: "";
+	//font-family: "FontAwesome";
+	padding: 0px;
+	//font-size: 1.1rem;
+	position: absolute;
+	right: 0px;
+	top: 22px;
+	z-index: 1;
+	text-align: center;
+	width: 10%;
+	height: 100%;
+	pointer-events: none;
+	box-sizing: border-box;
+	background: url("../images/select/01.png") no-repeat;
+}
+
+.select:hover {
+	color: #fff;
+}
+
+select {
+	display: block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.select {
+	margin: 0px 28px 0px 0px;
+	position: relative;
+	width: 370px;
+	color: #fff;
+	display: inline-block;
+}
+.select.is-active .select__body {
+	display: block;
+}
+
+.select__header {
+	border: 1px solid #ccc;
+	cursor: pointer;
+	display: flex;
+	background: #fff;
+	border: 1px solid #ffffff;
+	border-radius: 3px;
+	color: #7c7c84;
+	padding: 3px 10px 3px 16px;
+}
+
+.select__current {
+	//font-size: 18px;
+	line-height: 22px;
+	padding: 9px;
+
+	color: #272733;
 	font-family: Lato;
 	font-size: 18px;
 	font-weight: 400;
 	font-style: normal;
 	letter-spacing: normal;
-	line-height: 34px;
+
 	text-align: left;
+}
+
+.chun {
+	color: #fff;
+	background: #333646;
+}
+
+.select__body {
+	border: 1px solid #cccccc;
+	border-top: 0;
+	display: none;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	z-index: 1;
+}
+
+.select__body {
+	background: #272733;
+	opacity: 0.9;
+	height: 180px;
+	overflow-y: scroll;
+	z-index: 2;
+}
+
+/* Для определенных скроллбаров */
+
+.select__body::-webkit-scrollbar {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	background-color: #3d4050;
+}
+
+.select__body::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	background-color: #3d4050;
+}
+
+.select__body::-webkit-scrollbar {
+	width: 8px;
+	background-color: #434343;
+}
+
+.select__body::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #3e9cdc;
+}
+
+html,
+body {
+	scrollbar-color: #3e9cdc #3d4050;
+	border-radius: 10px;
+	scrollbar-width: auto thin none; /* толщина */
+}
+
+.select__item {
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 8px;
+	color: #fff;
+	position: relative;
+	z-index: 2;
+}
+
+.select__item:hover {
+	color: #42a9ed;
 }
