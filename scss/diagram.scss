@@ -1,6 +1,7 @@
 .diagram {
 	padding: 79px 0px 0px 0px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	position: relative;
 	overflow: hidden;
@@ -70,10 +71,27 @@
 	border-radius: 50%;
 	background-color: #bbbbbb;
 	margin: 0 9px;
-	//&:first-child {
-	//	margin-left: 0;
-	//}
-	//&:last-child {
-	//	margin-right: 0;
-	//}
+}
+
+//==============================================================================>
+
+@media (max-width: 1210px) {
+	.diagram {
+		padding: 40px 0px 0px 0px;
+		justify-content: center;
+		&__point {
+			display: none;
+		}
+		&__text {
+			width: 150px;
+		}
+		&__item {
+			margin-top: 30px;
+		}
+	}
+}
+@media (max-width: 666px) {
+	.diagram {
+		padding: 20px 0px 0px 0px;
+	}
 }

@@ -23,12 +23,7 @@ $(".polzunok__result").text($(".slider").slider("value"));
 
 //=======================================================================================>
 
-//$("#select :selected").val();
-//$("#select :selected").text();
-
-
-
-
+//Селект
 $("#select :selected").val();
 $("#select :selected").text();
 
@@ -73,4 +68,20 @@ document.getElementById("selectoro").addEventListener("click", function () {
 	} else {
 		element.classList.remove("chun");
 	}
+});
+
+
+//=======================================================================================>
+
+//Меню бургер
+$(document).ready(function () {
+	$('.header__burger').click(function (event) {
+		$('.header__burger,.header__navigation').toggleClass('active');
+		$('body').toggleClass('lock');
+	});
+	$('.header__link').click(function (event) {
+		$('.header__burger,.header__navigation').removeClass('active');
+		$('body').removeClass('lock');
+	});
+
 });
