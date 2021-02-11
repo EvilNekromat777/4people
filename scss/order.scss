@@ -38,3 +38,14 @@
 		text-align: center;
 	}
 }
+//========================================================================>
+@media (max-width: 1210px) {
+	.order {
+		padding: 118px 0px 100px 0px;
+	}
+}
+@media (max-width: 666px) {
+	.order {
+		padding: 118px 0px 60px 0px;
+	}
+}

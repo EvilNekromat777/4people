@@ -2,8 +2,30 @@
 	padding: 75px 0px 0px 0px;
 	position: relative;
 	z-index: 1;
+	&__data {
+		display: flex;
+		justify-content: space-between;
+		padding: 32px 0px 0px 0px;
+	}
+}
+.form {
+	text-align: center;
 }
 
+.polzunok {
+	&__input {
+		position: relative;
+	}
+	&__input-img {
+		width: 33px;
+		height: 20px;
+		position: absolute;
+		top: 12px;
+		left: 78px;
+	}
+}
+
+//=======================================================================================================>
 .input {
 	width: 370px;
 	height: 48px;
@@ -16,87 +38,67 @@
 	&:last-child {
 		margin: 0;
 	}
-}
-.input__select {
-	color: #272733;
-	font-family: Lato;
-	font-size: 18px;
-	font-weight: 400;
-	font-style: normal;
-	letter-spacing: normal;
-	line-height: 22px;
-}
-.input_polzunok {
-	margin: 0;
-	padding: 8px 0px 0px 124px;
-}
-.forms__data {
-	display: flex;
-	justify-content: space-between;
-	padding: 32px 0px 0px 0px;
-}
-.polzunok__input {
-	position: relative;
-}
-.polzunok__input-img {
-	width: 33px;
-	height: 20px;
-	position: absolute;
-	top: 12px;
-	left: 78px;
-}
+	&__select {
+		color: #272733;
+		font-family: Lato;
+		font-size: 18px;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 22px;
+	}
+	&_polzunok {
+		margin: 0;
+		padding: 8px 0px 0px 124px;
+	}
+	&__wrapper {
+		width: 100%;
+		position: relative;
+		margin: 15px 0;
+		text-align: center;
+	}
 
-//=======================================================================================================>
+	&__file {
+		opacity: 0;
+		visibility: hidden;
+		position: absolute;
+	}
+	&__file-icon-wrapper {
+		height: 20px;
+		width: 18px;
+		margin-right: 30px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		justify-content: center;
+		padding: 0px 0px 0px 90px;
+	}
 
-.input__wrapper {
-	width: 100%;
-	position: relative;
-	margin: 15px 0;
-	text-align: center;
-}
-
-.input__file {
-	opacity: 0;
-	visibility: hidden;
-	position: absolute;
-}
-
-.input__file-icon-wrapper {
-	height: 20px;
-	width: 18px;
-	margin-right: 30px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	justify-content: center;
-	padding: 0px 0px 0px 90px;
-}
-
-.input__file-button-text {
-	line-height: 1;
-	margin-top: 1px;
-}
-
-.input__file-button {
-	width: 370px;
-	height: 48px;
-	border-radius: 3px;
-	border: 2px solid #3e9cdc;
-	background-color: #ffffff;
-	padding: 8px 0px 0px 0px;
-	display: flex;
-	cursor: pointer;
-}
-.input__file-button-text {
-	color: #272733;
-	font-family: "Lato - Semibold";
-	font-size: 15px;
-	font-weight: 400;
-	font-style: normal;
-	letter-spacing: normal;
-	line-height: 22px;
-	text-align: center;
-	text-transform: uppercase;
+	&__file-button-text {
+		line-height: 1;
+		margin-top: 1px;
+	}
+	&__file-button {
+		width: 370px;
+		height: 48px;
+		border-radius: 3px;
+		border: 2px solid #3e9cdc;
+		background-color: #ffffff;
+		padding: 8px 0px 0px 0px;
+		display: flex;
+		cursor: pointer;
+	}
+	&__file-button-text {
+		color: #272733;
+		font-family: "Lato - Semibold";
+		font-size: 15px;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 22px;
+		text-align: center;
+		text-transform: uppercase;
+	}
 }
 
 //==========================================================================================================>
@@ -138,4 +140,45 @@
 	font-style: normal;
 	letter-spacing: normal;
 	line-height: 22px;
+}
+//==========================================================================================================>
+
+@media (max-width: 1210px) {
+	.input {
+		width: 300px;
+		margin: 30px 28px 0px 0px;
+		&:last-child {
+			margin: 30px 0px 0px 0px;
+		}
+		&__file-button {
+			width: 300px;
+		}
+		&__file-icon-wrapper {
+			padding: 0px 0px 0px 30px;
+		}
+	}
+	.forms {
+		&__data {
+			display: block;
+		}
+	}
+	.polzunok {
+		margin: 0 auto;
+		&__input {
+			margin: 30px auto 0px;
+			width: 300px;
+			label {
+				margin: 0 auto;
+			}
+		}
+	}
+}
+@media (max-width: 666px) {
+	.input {
+		width: 270px;
+		margin: 30px 0px 0px 0px;
+		&__file-button {
+			width: 270px;
+		}
+	}
 }

@@ -1,13 +1,3 @@
-//.input__select-value {
-//	color: red;
-//	font-family: Lato;
-//	font-size: 18px;
-//	font-weight: 400;
-//	font-style: normal;
-//	letter-spacing: normal;
-//	line-height: 34px;
-//	text-align: left;
-//}
 .select::after {
 	content: "";
 	//font-family: "FontAwesome";
@@ -141,4 +131,30 @@ body {
 
 .select__item:hover {
 	color: #42a9ed;
+}
+
+//===========================================================================================>
+
+@media (max-width: 1210px) {
+	.select {
+		width: 300px;
+	}
+	.button__form {
+		width: 300px;
+		height: 48px;
+		margin-top: 30px;
+	}
+}
+@media (max-width: 666px) {
+	.select {
+		width: 270px;
+	}
+	.button__form {
+		width: 270px;
+	}
+}
+@media (max-width: 572px) {
+	.select {
+		margin: 0;
+	}
 }
