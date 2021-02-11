@@ -33,12 +33,14 @@
 		text-transform: uppercase;
 		margin: 0px 0px 0px 66px;
 	}
+	&__link.acive {
+	}
 	&__burger {
 		display: none;
 	}
 }
 //=============================================================>
-@media (max-width: 1200px) {
+@media (max-width: 1210px) {
 	.header {
 		padding: 0px 0px 0px 60px;
 	}
