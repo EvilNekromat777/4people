@@ -12,7 +12,6 @@
 	&__body {
 		position: relative;
 		z-index: 2;
-		//min-height: 100vh;
 		padding: 230px 0px 191px 0px;
 	}
 
@@ -46,94 +45,67 @@
 		font-family: "Lato - Regular";
 		font-weight: 400;
 	}
-
-	&__buttons {
-	}
 }
 //============================================================================>
-@media (max-width: 1668px) {
+@media (max-width: 1200px) {
 	.about {
-		&__body {
-			padding: 160px 0px 0px 0px;
-		}
-
+		padding: 0px 0px 0px 60px;
 		&__title {
-			font-size: 40px;
-		}
-
-		&__info {
-			margin: 54px 0px 57px 0px;
-		}
-	}
-}
-@media (max-width: 1376px) {
-	.about {
-		padding: 0px 35px 0px 35px;
-		&__body {
-			padding: 130px 0px 0px 0px;
-		}
-
-		&__title {
-			font-size: 28px;
+			font-size: 30px;
 			line-height: 44px;
-		}
-
-		&__info {
-			margin: 40px 0px 43px 0px;
-		}
-	}
-}
-@media (max-width: 1150px) {
-	.about {
-		&__body {
-			padding: 110px 0px 0px 0px;
 			max-width: 533px;
 		}
-
+	}
+}
+@media (max-width: 980px) {
+	.about {
+		padding: 0px 0px 0px 20px;
 		&__title {
 			font-size: 24px;
 			line-height: 34px;
-			//max-width: 533px;
+			max-width: 533px;
 		}
-
 		&__info {
-			margin: 30px 0px 33px 0px;
+			font-size: 16px;
+			line-height: 24px;
+		}
+		&__body {
+			padding: 150px 0px 150px 0px;
 		}
 	}
 }
-@media (max-width: 992px) {
+@media (max-width: 767px) {
 	.about {
+		padding: 0px 0px 0px 15px;
 		&__body {
-			padding: 90px 0px 0px 0px;
+			padding: 80px 0px 80px 0px;
 		}
-
 		&__title {
-			font-size: 20px;
-			line-height: 30px;
-			//max-width: 533px;
+			font-size: 18px;
+			line-height: 24px;
+			max-width: 333px;
 		}
-		//&__subtitle{
-		//	max-width: 533px;
-		//}
-
 		&__info {
-			margin: 25px 0px 28px 0px;
+			font-size: 12px;
+			line-height: 18px;
+			margin: 45px 0px 52px 0px;
 		}
 	}
 }
-@media (max-width: 868px) {
+@media (max-width: 550px) {
 	.about {
 		&__body {
-			padding: 80px 0px 0px 0px;
+			padding: 70px 0px 50px 0px;
 		}
-
 		&__title {
-			font-size: 15px;
-			line-height: 25px;
+			font-size: 14px;
+			line-height: 18px;
+			max-width: 233px;
 		}
-
 		&__info {
-			//margin: 25px 0px 23px 0px;
+			font-size: 10px;
+			line-height: 14px;
+			margin: 35px 0px 42px 0px;
 		}
 	}
 }
